@@ -1365,7 +1365,7 @@ const BottomSheetComponent = forwardRef<BottomSheet, BottomSheetProps>(
           if (containerHeight !== _previousContainerHeight) {
             animationSource = ANIMATION_SOURCE.CONTAINER_RESIZE;
             animationConfig = {
-              duration: 1,
+              duration: 5,
             };
           }
         }
